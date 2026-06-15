@@ -72,7 +72,7 @@ This notebook trains two unsupervised models and then maps their anomaly outputs
      - `1` in `OneClassSVM` is converted to `0` (non-fraud)
      - `-1` is converted to `1` (fraud)
 
-## Method summary (research-style)
+## Method summary 
 
 1. **EDA** checks the marginal distributions of `Amount` and `Time`, motivating anomaly detection.
 2. **Standardization** makes feature scales comparable (important for distance/boundary-based methods).
